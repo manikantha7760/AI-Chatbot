@@ -6,8 +6,15 @@
     <meta charset="UTF-8">
     <title>Chatbot</title>
 </head>
-<body>
-<div class="container">
+<body style="background-color:gray">
+    <div style="color: white">
+    <h1 style="text-align:center;">SDM COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
+    <h1 style="text-align:center;">AI CHATBOT</h1>
+    </div> 
+    <div style="text-align:center">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.UEZfU9hflMwqstTyl4bFxQHaDf&pid=Api&P=0&w=344&h=162" width="75%">
+    </div>
+    <div class="container">
     <div class="chatbox">
         <div class="chatbox__support">
             <div class="chatbox__header">
@@ -34,7 +41,7 @@
 </div>
 
     <script>
-        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+        $SCRIPT_ROOT =  {{request.script_root|tojson}} ;
     </script>
     <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
 

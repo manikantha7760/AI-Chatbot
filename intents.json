@@ -35,13 +35,18 @@
   "responses":["Not much.","Nothing much."]
   },
   {
+    "tag":"Goodbye",
+    "patterns":["bye","See you later"],
+    "responses":["bye","Goodbye"]
+  },
+  {
       "tag":"clg1",
-      "patterns":["who is Principal of SDMCET","Pricipal of SHRI DHARMASTHALA MANJUNATHESHWARA COLLEGE OF ENGINEERING AND TECHNOLOGY"],
+      "patterns":["who is Principal of SDMCET","Pricipal of Sdmcet"],
       "responses":["Dr. K. GOPINATH","pricipal of SDMCET IS Dr. K. GOPINATH"]
       },
       {
       "tag":"clg2",
-      "patterns":["who is President of SDMCET","President of SHRI DHARMASTHALA MANJUNATHESHWARA COLLEGE OF ENGINEERING AND TECHNOLOGY"],
+      "patterns":["who is President of SDMCET","President of Sdmcet"],
       "responses":["DR. D. VEERENDRA HEGGADE","president of SDMCET is DR. D. VEERENDRA HEGGADE"]
       },
       
@@ -223,6 +228,315 @@
       "tag":"mech3",
       "patterns":["In which year MECH department was established ","MECH department was established in which year"],
       "responses":["Department of MECH was established in the year 1979.","1979."]
-      } 
+      },
+      {
+        "tag":"hostel1",
+        "patterns":["how many hostels are there in total","total number of hostels"],
+        "responses":["5 hostels are there in total.","5."]
+      },
+      {
+        "tag":"hostel2",
+        "patterns":["how many hostels are there for boys"," number of hostels for boys"],
+        "responses":["3 hostels are there : Shalmala, Netravati, Narmada","3: Shalmala, Netravati, Narmada"]
+      },
+      {
+        "tag":"hostel3",
+        "patterns":["how many hostels are there for girls","number of hostels for girls"],
+        "responses":["2 hostels are there : Hemavati, Sharavati","2 : Hemavati, Sharavati"]
+      },
+      {
+        "tag":"feeStructure1",
+        "patterns":["Fee Structure through cet","Fee Structure of cet students","cet Fee Structure"],
+        "responses":[" CET Quota is - Rs.83526/- per year for all the branches."]
+       },
+       {
+         "tag":"feeStructure2",
+         "patterns":["Mechanical Fee Structure through management seats"," Mechanical Fee Structure of management seats","Mechanical management Fee Structure"],
+         "responses":["Mechanical Engg.->Rs.175000"]
+       },
+       {
+         "tag":"feeStructure3",
+         "patterns":["Computer Science Fee Structure through management seats"," Computer science Fee Structure of management seats","Computer science management Fee Structure","cse management Fee Structure"],
+         "responses":["Computer Science Engg.->Rs.350000"]
+       },
+       {
+         "tag":"feeStructure4",
+         "patterns":[" Information science Fee Structure through management seats"," Information science  Fee Structure of management seats"," Information science management Fee Structure","ise management Fee Structure"],
+         "responses":["Informations Science Engg.->Rs.325000"]
+       },
+       {
+         "tag":"feeStructure5",
+         "patterns":["Civil Fee Structure through management seats","Civil  Fee Structure of management seats","Civil management Fee Structure"],
+         "responses":["Civil Engg.->Rs.200000"]
+       },
+       {
+         "tag":"feeStructure6",
+         "patterns":["Electronics & Communication  Fee Structure through management seats","Electronics & Communication  Fee Structure of management seats","Electronics & Communication  management Fee Structure","ece management Fee Structure"],
+         "responses":["Electronics & Communication Engg.->Rs.275000"]
+       },
+       {
+         "tag":"feeStructure7",
+         "patterns":["Electrical & Electronics  Fee Structure through management seats","Electrical & Electronics Fee Structure of management seats","Electrical & Electronics management Fee Structure","eee management Fee Structure"],
+         "responses":["Electrical & Electronics Engg.->Rs.150000"]
+       },
+       {
+         "tag":"feeStructure8",
+         "patterns":["Chemical Fee Structure through management seats","Chemical Fee Structure of management seats","Chemical management Fee Structure"],
+         "responses":["Chemical Engg.->Rs.100000"]
+       },
+       {
+        "tag":"placement1",
+        "patterns":["Total number of companies visited in 2015-16","companies visited in 2015-16"],
+        "responses":["47"]
+      },
+      {
+        "tag":"placement2",
+        "patterns":["Total number of companies visited in 2016-17","companies visited in 2016-17"],
+        "responses":["49"]
+      },
+      {
+        "tag":"placement3",
+        "patterns":["Total number of companies visited in 2017-18","companies visited in 2017-18"],
+        "responses":["50"]
+      },
+      {
+        "tag":"placement4",
+        "patterns":["Total number of companies visited in 2018-19","companies visited in 2018-19"],
+        "responses":["69"]
+      },
+      {
+        "tag":"placement5",
+        "patterns":["Total number of companies visited in 2019-20","companies visited in 2019-20"],
+        "responses":["87"]
+      },
+      {
+        "tag":"placement6",
+        "patterns":["Total number of offers in 2015-16","offers in 2015-16"],
+        "responses":["405"]
+      },
+      {
+        "tag":"placement7",
+        "patterns":["Total number of offers in 2016-17","offers in 2016-17"],
+        "responses":["279"]
+      },
+      {
+        "tag":"placement8",
+        "patterns":["Total number of offers in 2017-18","offers in 2017-18"],
+        "responses":["355"]
+      },
+      {
+        "tag":"placement9",
+        "patterns":["Total number of offers in 2018-19","offers in 2018-19"],
+        "responses":["438"]
+      },
+      {
+        "tag":"placement10",
+        "patterns":["Total number of offers in 2019-20","offers in 2019-20"],
+        "responses":["515"]
+      },
+      {
+        "tag":"placement11",
+        "patterns":["Highest package in 2015-16","highest in 2015-16"],
+        "responses":["14"]
+      },
+      {
+        "tag":"placement12",
+        "patterns":["Highest package in 2016-17","highest in 2016-17"],
+        "responses":["13.87"]
+      },
+      {
+        "tag":"placement13",
+        "patterns":["Highest package in 2017-18","highest in 2017-18"],
+        "responses":["9.62"]
+      },
+      {
+        "tag":"placement14",
+        "patterns":["Highest package in 2018-19","highest in 2018-19"],
+        "responses":["10.24"]
+      },
+      {
+        "tag":"placement15",
+        "patterns":["Highest package in 2019-20","highest in 2019-20"],
+        "responses":["12.75"]
+      },
+      {
+        "tag":"placement16",
+        "patterns":["placements in chemical in 2015-16","chemical in 2015-16"],
+        "responses":["6"]
+      },
+      {
+        "tag":"placement17",
+        "patterns":["placements in civil in 2015-16","civil in 2015-16"],
+        "responses":["20"]
+      },
+      {
+        "tag":"placement18",
+        "patterns":["placements in Mech in 2015-16","mech in 2015-16"],
+        "responses":["70"]
+      },
+      {
+        "tag":"placement19",
+        "patterns":["placements in eee in 2015-16","eee in 2015-16"],
+        "responses":["31"]
+      },
+      {
+        "tag":"placement20",
+        "patterns":["placements in ise in 2015-16","ise in 2015-16"],
+        "responses":["43"]
+      },
+      {
+        "tag":"placement21",
+        "patterns":["placements in cse in 2015-16","cse in 2015-16"],
+        "responses":["117"]
+      },
+      {
+        "tag":"placement22",
+        "patterns":["placements in ece in 2015-16","ece in 2015-16"],
+        "responses":["113"]
+      },
+      {
+        "tag":"placement23",
+        "patterns":["placements in ece in 2016-17","ece in 2016-17"],
+        "responses":["78"]
+      },
+      {
+        "tag":"placement24",
+        "patterns":["placements in cse in 2016-17","cse in 2016-17"],
+        "responses":["79"]
+      },
+      {
+        "tag":"placement25",
+        "patterns":["placements in cse in 2017-18","cse in 2017-18"],
+        "responses":["113"]
+      },
+      {
+        "tag":"placement26",
+        "patterns":["placements in cse in 2018-19","cse in 2018-19"],
+        "responses":["143"]
+      },
+      {
+        "tag":"placement27",
+        "patterns":["placements in cse in 2019-20","cse in 2019-20"],
+        "responses":["156"]
+      },
+      {
+        "tag":"placement28",
+        "patterns":["placements in ece in 2017-18","ese in 2017-18"],
+        "responses":["101"]
+      },
+      {
+        "tag":"placement29",
+        "patterns":["placements in ece in 2018-19","ese in 2018-19"],
+        "responses":["124"]
+      },
+      {
+        "tag":"placement30",
+        "patterns":["placements in ece in 2019-20","ese in 2019-20"],
+        "responses":["112"]
+      },
+      {
+        "tag":"placement31",
+        "patterns":["placements in ise in 2016-17","ise in 2016-17"],
+        "responses":["34"]
+      },
+      {
+        "tag":"placement32",
+        "patterns":["placements in ise in 2017-18","ise in 2017-18"],
+        "responses":["35"]
+      },
+      {
+        "tag":"placement33",
+        "patterns":["placements in ise in 2018-19","ise in 2018-19"],
+        "responses":["65"]
+      },
+      {
+        "tag":"placement34",
+        "patterns":["placements in ise in 2019-20","ise in 2019-20"],
+        "responses":["76"]
+      },
+      {
+        "tag":"placement35",
+        "patterns":["placements in eee in 2016-17","eee in 2016-17"],
+        "responses":["22"]
+      },
+      {
+        "tag":"placement36",
+        "patterns":["placements in eee in 2017-18","eee in 2017-18"],
+        "responses":["22"]
+      },
+      {
+        "tag":"placement37",
+        "patterns":["placements in eee in 2018-19","eee in 2018-19"],
+        "responses":["39"]
+      },
+      {
+        "tag":"placement38",
+        "patterns":["placements in eee in 2019-20","eee in 2019-20"],
+        "responses":["31"]
+      },
+      {
+        "tag":"placement39",
+        "patterns":["placements in mech in 2016-17","mech in 2016-17"],
+        "responses":["43"]
+      },
+      {
+        "tag":"placement40",
+        "patterns":["placements in mech in 2017-18","mech in 2017-18"],
+        "responses":["54"]
+      },
+      {
+        "tag":"placement41",
+        "patterns":["placements in mech in 2018-19","mech in 2018-19"],
+        "responses":["41"]
+      },
+      {
+        "tag":"placement42",
+        "patterns":["placements in mech in 2019-20","mech in 2019-20"],
+        "responses":["32"]
+      },
+      {
+        "tag":"placement43",
+        "patterns":["placements in civil in 2016-17","civil in 2016-17"],
+        "responses":["4"]
+      },
+      {
+        "tag":"placement44",
+        "patterns":["placements in civil in 2017-18","civil in 2017-18"],
+        "responses":["11"]
+      },
+      {
+        "tag":"placement45",
+        "patterns":["placements in civil in 2018-19","civil in 2018-19"],
+        "responses":["13"]
+      },
+      {
+        "tag":"placement46",
+        "patterns":["placements in civil in 2019-20","civil in 2019-20"],
+        "responses":["7"]
+      },
+      {
+        "tag":"placement47",
+        "patterns":["placements in chemical in 2016-17","chemical in 2016-17"],
+        "responses":["13"]
+      },
+      {
+        "tag":"placement48",
+        "patterns":["placements in chemical in 2017-18","chemical in 2017-18"],
+        "responses":["16"]
+      },
+      {
+        "tag":"placement49",
+        "patterns":["placements in chemical in 2018-19","chemical in 2018-19"],
+        "responses":["13"]
+      },
+      {
+        "tag":"placement50",
+        "patterns":["placements in chemical in 2019-20","chemical in 2019-20"],
+        "responses":["16"]
+      }
+
+
+
+
   
   ] }
